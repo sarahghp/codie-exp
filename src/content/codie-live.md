@@ -1,5 +1,5 @@
 ---
-template: text
+template: embed
 next: '/'
 prev: '/about-livecode'
 ---
