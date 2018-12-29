@@ -1,5 +1,7 @@
 ---
 template: text
+prev: '/'
+next: '/about-art'
 ---
 
 ### Sarah Groff Hennigh-Palermo is an artist, programmer, and erstwhile data designer. **[Her work](/sketches) centers around methods to make computers and data more humane — more accessible, more flexible, more contextual.** She has created data-obscured art sites, new computer languages, and hybrid nostalgia machines. **Her [current focus](/about-art) is livecode and digital abstraction.**

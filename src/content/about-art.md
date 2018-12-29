@@ -1,5 +1,7 @@
 ---
 template: text
+next: '/sketches'
+prev: '/about-sarah'
 ---
 
 ### In her practice, Sarah explores methods of creating with code that expand the relationship between machine and artist, allowing for error and dialogue from both sides. **Likewise, aesthetically she seeks a look distinct from current shader-driven computer works, with their focus on 2D fractals or high-specular 3D.** She is also eager to explore a computer art that is about the medium itself, rather than about the concept of computers making art. 

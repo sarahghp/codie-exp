@@ -1,5 +1,7 @@
 ---
 template: text
+next: '/about-livecode'
+prev: '/films'
 ---
 
 ## [Codie](https://codie.live/) is Sarah Groff Hennigh-Palermo, Kate Sicchio, and Melody Loveless.

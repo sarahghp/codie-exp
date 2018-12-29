@@ -24,6 +24,7 @@ const Layout = ({ children }) => (
             minHeight: '100vh',
             maxWidth: '80vw',
             display: 'flex',
+            flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'center'
           }}
