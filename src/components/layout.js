@@ -19,10 +19,13 @@ const Layout = ({ children }) => (
       <>
         <div
           style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
+            margin: '0 auto',
+            padding: '5vh', 
+            minHeight: '100vh',
+            maxWidth: '80vw',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
           }}
         >
           {children}
