@@ -27,6 +27,7 @@ canvas,
 progress,
 video {
   display: inline-block;
+  padding: 2rem 2rem 2rem 0;
 }
 audio:not([controls]) {
   display: none;
@@ -275,17 +276,17 @@ h3 {
 h4 {
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 1rem;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: #e73473;
   font-family: 'Avenir Next', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1rem;
+  font-size: 2.1rem;
   line-height: 1.1;
 }
 h5 {
