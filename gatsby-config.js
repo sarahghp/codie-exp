@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Sarah GHP Art Site`,
+    description: `Sarah Groff Hennigh-Palermo x Codie art site.`,
+    author: `@sarahgp`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -34,6 +34,7 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
+    `gatsby-plugin-favicon`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
