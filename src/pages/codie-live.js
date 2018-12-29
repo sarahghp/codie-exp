@@ -6,7 +6,7 @@ const LiveCodie = () => {
   return (
     <Layout>
       <h2> 
-        Some raw footage from earlier this year. 
+        Some footage from earlier this year. 
         <br /> <a href='https://instagram.com/hi_codie/'> Or see more clips on Instagram.</a>
       </h2>
       <video src={codieSPR} controls />
