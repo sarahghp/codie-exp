@@ -1,5 +1,6 @@
 ---
 template: text
+current: 'about-art'
 next: '/sketches'
 prev: '/about-sarah'
 ---

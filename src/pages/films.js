@@ -10,7 +10,7 @@ const Films = () => {
         <br /> <Link to='/sketches'> Or check out some sketches.</Link>
       </h2>
       <iframe title='tangara' src="https://player.vimeo.com/video/282159597" width="960" height="541" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      <NavFooter next='/about-codie' prev='/sketches' />
+      <NavFooter current='films' />
     </Layout>
   )
 }

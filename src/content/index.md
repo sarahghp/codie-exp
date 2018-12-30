@@ -1,5 +1,6 @@
 ---
 template: text
+current: 'index'
 next: '/about-sarah'
 ---
 

@@ -9,7 +9,7 @@ export default ({ data }) => {
       <div>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
-      <NavFooter prev={post.frontmatter.prev} next={post.frontmatter.next} />
+      <NavFooter current={post.frontmatter.current} />
     </Layout>
   )
 }
@@ -19,8 +19,7 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        prev
-        next
+        current
       }
     }
   }

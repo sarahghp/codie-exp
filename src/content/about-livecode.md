@@ -1,5 +1,6 @@
 ---
 template: text
+current: 'about-livecode'
 next: '/codie-live'
 prev: '/about-codie'
 ---

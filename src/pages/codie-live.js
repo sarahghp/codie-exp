@@ -10,7 +10,7 @@ const LiveCodie = () => {
         <br /> <a href='https://instagram.com/hi_codie/'> Or see more clips on Instagram.</a>
       </h2>
       <video src={codieSPR} controls />
-      <NavFooter next='/' prev='/about-livecode' />
+      <NavFooter current='codie-live' />
     </Layout>
   )
 }

@@ -1,5 +1,6 @@
 ---
 template: embed
+current: 'codie-live'
 next: '/'
 prev: '/about-livecode'
 ---

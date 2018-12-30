@@ -45,7 +45,7 @@ const Sketches = () => {
             <video key={vid.toString()} src={vid} poster={posterPath(vid)} controls />
           )
         })}
-        <NavFooter prev='/about-art' next='/films' />
+        <NavFooter current='sketches' />
       </div>
     </Layout>
   )
