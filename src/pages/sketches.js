@@ -6,9 +6,17 @@ import * as medialVids from '../images/sketch-vids/medial-index'
 import * as maximalVids from '../images/sketch-vids/maximal-index'
 import * as posters from '../images/sketch-posters'
 
-const posterPath = (vidPath) => {
-  const vidUrl = new URL(vidPath)
-  return posters[vidUrl.pathname.split(/\/|\.|-/)[2]]
+const posterPath = (rawPath) => {
+  // these shenanigans because gatsby builds production sites
+  // outside a browser environment
+  let vidPath;
+  
+  if (typeof window === 'undefined') {
+    vidPath = rawPath
+  } else {
+    vidPath = (new URL(rawPath)).pathname
+  }
+  return posters[vidPath.split(/\/|\.|-/)[2]]
 }
 
 const Sketches = () => {
