@@ -28,6 +28,12 @@ progress,
 video {
   display: inline-block;
   padding: 2rem 2rem 2rem 0;
+  width: 50%;
+}
+@media (max-width: 960px) {
+  video {
+    width: 100%;
+  }
 }
 audio:not([controls]) {
   display: none;
