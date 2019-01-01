@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 const fsm = {
   'about-art': {
@@ -47,9 +46,9 @@ const NavFooter = ({ current }) => {
       style={{
         alignSelf: 'flex-start'
       }}>
-      {prev && <Link to={prev}>←</Link>}&nbsp;
-      <Link to='/'>↑</Link>&nbsp;
-      {next && <Link to={next}>→</Link>}
+      {prev && <a href={prev}>←</a>}&nbsp;
+      <a href='/'>↑</a>&nbsp;
+      {next && <a href={next}>→</a>}
     </h1>
   )
 }
