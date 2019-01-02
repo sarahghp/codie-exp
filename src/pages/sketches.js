@@ -6,19 +6,6 @@ import * as medialVids from '../images/sketch-vids/medial-index'
 import * as maximalVids from '../images/sketch-vids/maximal-index'
 import * as posters from '../images/sketch-posters'
 
-const posterPath = (rawPath) => {
-  // these shenanigans because gatsby builds production sites
-  // outside a browser environment
-  let vidPath;
-  
-  if (typeof window === 'undefined') {
-    vidPath = rawPath
-  } else {
-    vidPath = (new URL(rawPath)).pathname
-  }
-  return posters[vidPath.split(/\/|\.|-/)[2]]
-}
-
 const Sketches = () => {
 
   return (
@@ -34,23 +21,23 @@ const Sketches = () => {
         </h2>
         <hr />
         <h4>Maximal</h4>
-        {Object.values(maximalVids).map((vid) => {
+        {Object.entries(maximalVids).map(([posterPath, vid]) => {
           return (
-            <video key={vid.toString()} src={vid} poster={posterPath(vid)} controls />
+            <video key={vid.toString()} src={vid} poster={posters[posterPath]} controls />
           )
         })}
         <hr />
         <h4>Minimal</h4>
-        {Object.values(minimalVids).map((vid) => {
+        {Object.entries(minimalVids).map(([posterPath, vid]) => {
           return (
-            <video key={vid.toString()} src={vid} poster={posterPath(vid)} controls />
+            <video key={vid.toString()} src={vid} poster={posters[posterPath]} controls />
           )
         })}
         <hr />
         <h4>Medial</h4>
-        {Object.values(medialVids).map((vid) => {
+        {Object.entries(medialVids).map(([posterPath, vid]) => {
           return (
-            <video key={vid.toString()} src={vid} poster={posterPath(vid)} controls />
+            <video key={vid.toString()} src={vid} poster={posters[posterPath]} controls />
           )
         })}
         <NavFooter current='sketches' />
