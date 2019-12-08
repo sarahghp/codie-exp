@@ -14,4 +14,4 @@ next: '/about-sarah'
 <br />
 
 *more codie*: [home](https://codie.live/) | [twitter](https://twitter.com/hi_codie) | [insta](https://instagram.com/hi_codie/)  
-*more Sarah*: [home](http://sarahghp.com/) | hi@sarahgp.com
+*more Sarah*: [home](http://sarahghp.com/) | [vimeo](https://vimeo.com/hicodie) | hi@sarahgp.com

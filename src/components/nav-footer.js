@@ -2,15 +2,15 @@ import React from 'react'
 
 const fsm = {
   'about-art': {
-    next: '/sketches',
+    next: '/works',
     prev: '/about-sarah'
   },
   'about-codie': {
     next: '/about-livecode',
-    prev: '/films'
+    prev: '/codie-live'
   },
   'about-livecode': {
-    next: '/codie-live',
+    next: '/',
     prev: '/about-codie'
   },
   'about-sarah': {
@@ -18,20 +18,19 @@ const fsm = {
     next: '/about-art'
   },
   'codie-live': {
-    next: '/',
-    prev: '/about-livecode'
-  },
-  'films': {
     next: '/about-codie',
-    prev: '/sketches'
+    prev: '/works'
   },
   'index': {
     next: '/about-sarah'
   },
   'sketches': {
-    next: '/films',
+    
+  },
+  'works': {
+    next: '/codie-live',
     prev: '/about-art'
-  }
+  },
 }
 
 export const getLink = (dir, current) => {

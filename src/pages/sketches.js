@@ -16,8 +16,8 @@ const Sketches = () => {
         alignItems: "center",
       }}>
         <h2> 
-          These are short snippets of my abstract works. 
-          I recommend viewing fullscreen. <br /> <Link to='/films'> Or check out a full film with music.</Link>
+          These are short snippets from livecode practices. 
+          I recommend viewing fullscreen. <br /> <Link to='/works'> Or check out other works.</Link>
         </h2>
         <hr />
         <h4>Maximal</h4>
@@ -40,8 +40,8 @@ const Sketches = () => {
             <video key={vid.toString()} src={vid} poster={posters[posterPath]} controls />
           )
         })}
-        <NavFooter current='sketches' />
       </div>
+      <NavFooter current='sketches' />
     </Layout>
   )
 }
