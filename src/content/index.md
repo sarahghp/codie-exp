@@ -4,9 +4,11 @@ current: 'index'
 next: '/about-sarah'
 ---
 
-## [Sarah GHP](/about-sarah) is a [digital artist](/about-art). She creates geometric [sketches](/sketches) and [films](/films) and sometimes [performs live](/codie-live) as Codie’s visualist.
+## <a class="relative" href="/about-sarah">Sarah GHP<span id="bio"></span></a> is a <a class="relative" href="/about-art">digital & video artist <span id="statement"></span></a>. 
 
-## [Codie](/about-codie) is a [livecode](/about-livecode) band.
+## She creates <a class="relative" href="/works">large-scale abstract works <span id="selected"></span></a> with and without the help of synths. 
+
+## She also <a class="relative" href="/codie-live">performs live<span id="performances"></span></a> as the visualist for  <a class="relative" href="/about-codie">Codie<span id="about-codie"></span></a> — a <a class="relative" href="/about-livecode">livecode<span id="livecode"></span></a> band.
 
 <br />
 <br />

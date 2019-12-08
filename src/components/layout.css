@@ -630,3 +630,45 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.relative {
+  position: relative;
+}
+
+#about-codie::after,
+#bio::after, 
+#livecode::after,
+#performances::after,
+#selected::after, 
+#statement::after {
+  position: absolute;
+  font-size: 12px;
+  bottom: 4px;
+  right: 0;
+  color: hsl(257, 100%, 29%);;
+}
+
+#about-codie::after {
+  content: 'about codie'
+}
+
+#bio::after {
+  content: 'bio'
+}
+
+#livecode::after {
+  content: 'about livecode'
+}
+
+#performances::after {
+  content: 'performances'
+}
+
+#statement::after {
+  content: 'artist statement'
+}
+
+#selected::after {
+  content: 'selected views'
+}
+
