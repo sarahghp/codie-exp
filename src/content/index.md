@@ -1,7 +1,6 @@
 ---
 template: text
 current: 'index'
-next: '/about-sarah'
 ---
 
 ## <a class="relative" href="/about-sarah">Sarah GHP<span id="bio"></span></a> is a <a class="relative" href="/about-art">digital & video artist <span id="statement"></span></a>. 

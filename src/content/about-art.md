@@ -1,12 +1,14 @@
 ---
 template: text
 current: 'about-art'
-next: '/sketches'
-prev: '/about-sarah'
 ---
 
-### In her practice, Sarah explores methods of creating with code that expand the relationship between machine and artist, allowing for error and dialogue from both sides. **Likewise, aesthetically she seeks a look distinct from current shader-driven computer works, with their focus on 2D fractals or high-specular 3D.** She is also eager to explore a computer art that is about the medium itself, rather than about the concept of computers making art. 
+### Computers: born in war, deployed to make money, used to surveil and divide. **Using these and commercial video processing machines, I look to repurpose tools of questionable provenance in order to create a sense of transcendence from these degraded mediums.** I am eager to explore a computer art that is about the medium itself, rather than about the concept of computers making art. 
 
-### In her most recent work, she engages the digital medium as a **medium** (rather than a concept) via a focus on [abstraction and movement](/sketches). **This is similar to the way abstract expressionism and minimalism were about the materiality of paint and industrial materials or the film experiments of Norman McLaren are about the nature of film itself.**
+### **In my most recent work, I engage the digital medium as a _medium_ via a focus on [abstraction, movement, and historical effects and transitions](/works).** Starting with base images inspired by live code sets and built with my custom animation framework, the  works are often further modified with image processing tools new and old, from the Jones frame buffer to the Fairlight CVI to modern video editors. **The results are meant to be projected large, in a space that allows for contemplation, for losing oneself.**
 
-### Combining browser animation capabilities, frame-driven rhythms, and oversized patterns drawn from analog printing techniques — particularly for mid-century data visualization — she endeavors to create works that embody a lineage from suprematism, pop art, color field paintings, and minimalist works in a new medium. **Or, as she once said on Twitter, I look to answer the question, _What if Agnes Martin and Roy Lichtenstein had a baby who learned to code?_**
+### Starting with the focus on liveness and error that characterizes tools for livecoding, this stack generates works that explore the materiality of the digital **(not smooth and perfect, but crunchy and unsteady)**, while also carrying an implicit critique of the positivist, perfectionist assumptions lurking in code.
+
+### **Combining browser animation capabilities, frame-driven rhythms, and oversized patterns drawn from analog printing techniques** — particularly for mid-century data visualization — **the works seek their places among previous movements with similar interests in the transcendent and the degraded:** suprematism, pop art, and color field paintings. 
+
+### **Or, as I once said on Twitter, I look to answer the question:** _What if Agnes Martin and Roy Lichtenstein had a baby who learned to code?_

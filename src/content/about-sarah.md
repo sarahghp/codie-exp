@@ -5,6 +5,10 @@ prev: '/'
 next: '/about-art'
 ---
 
-### Sarah Groff Hennigh-Palermo is an artist, programmer, and erstwhile data designer. **[Her work](/sketches) centers around methods to make computers and data more humane — more accessible, more flexible, more contextual.** She has created data-obscured art sites, new computer languages, and hybrid nostalgia machines. **Her [current focus](/about-art) is livecode and digital abstraction.**
+### Sarah Groff Hennigh-Palermo is an artist, programmer, and erstwhile data designer. **[Her work](/works) focuses on using the digital in a manner that can transcend its squalid and militaristic roots and reach out towards the sublime.** She has created data-obscured art sites, new computer languages, and hybrid nostalgia machines. 
 
-### Sarah is an alumna of the School for Poetic Computation, Recurse Center, Brown University, and NYU Tandon School of Engineering. **She has taken part in group shows at Sonar+D, Westbeth, Day for Night, and Flux Factory.**
+### **Her [current focus](/about-art) is livecoded performances and abstract digital installations.** For both, she makes use of image processing tools new and old, from the Jones frame buffer to a time-based SVG framework she developed herself.
+
+### **Sarah is an alumna of the School for Poetic Computation, Recurse Center, Brown University, and NYU Tandon School of Engineering.** In addition to a solo exhibition as part of Wallplay's On Canal series, she has taken part in group shows at Sonar+D, Westbeth, Day for Night, Flux Factory, and Denver Supernova.
+
+### **Born in Southern California, Sarah lives and works in New York and Berlin.**
